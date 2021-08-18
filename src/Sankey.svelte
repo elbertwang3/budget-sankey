@@ -107,6 +107,7 @@
 
   .link:hover {
     stroke-opacity: 1;
+    cursor: pointer;
   }
 
   .header {
