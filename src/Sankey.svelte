@@ -33,8 +33,8 @@
 
   $: fontSize = $width <= 320 ? 8 : 12;
 
-  $: console.log(sankeyData.nodes);
-  $: console.log(sankeyData.links);
+  //   $: console.log(sankeyData.nodes);
+  //   $: console.log(sankeyData.links);
 </script>
 
 <g class="sankey-layer">

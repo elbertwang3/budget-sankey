@@ -14,7 +14,7 @@ import execute from "rollup-plugin-execute";
 // });
 
 export default {
-  input: "src/components/App.svelte",
+  input: "src/App.svelte",
   output: {
     format: "cjs",
     file: ".tmp/ssr.js",
