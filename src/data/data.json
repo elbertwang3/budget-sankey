@@ -1,0 +1,797 @@
+{
+  "nodes": [
+    {
+      "id": "Business Taxes",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Charges for Services",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Contributions Ret/HSS/HlthCare",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Expenditure Recovery",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Fines, Forfeiture, & Penalties",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Interest & Investment Income",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Intergovernmental: Federal",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Intergovernmental: Other",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Intergovernmental: State",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "IntraFund Transfers In",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Licenses, Permits,& Franchises",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Other Financing Sources",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Other Local Taxes",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Other Revenues",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Property Taxes",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Rents & Concessions",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Transfers In",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Unappropriated Fund Balance",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "revenues"
+    },
+    {
+      "id": "Capital Projects Funds",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "funds"
+    },
+    {
+      "id": "Component Units",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "funds"
+    },
+    {
+      "id": "Debt Service Funds",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "funds"
+    },
+    {
+      "id": "Enterprise Funds",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "funds"
+    },
+    {
+      "id": "General Fund",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "funds"
+    },
+    {
+      "id": "Internal Service Funds",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "funds"
+    },
+    {
+      "id": "Investment Trust Fund",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "funds"
+    },
+    {
+      "id": "Pension, Other Employee and Ot",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "funds"
+    },
+    {
+      "id": "Permanent Fund",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "funds"
+    },
+    {
+      "id": "Private Purpose Trust Fund",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "funds"
+    },
+    {
+      "id": "Special Revenue Funds",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "funds"
+    },
+    {
+      "id": "Community Health",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "spending"
+    },
+    {
+      "id": "Culture & Recreation",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "spending"
+    },
+    {
+      "id": "General Administration & Finance",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "spending"
+    },
+    {
+      "id": "Human Welfare & Neighborhood Development",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "spending"
+    },
+    {
+      "id": "Public Protection",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "spending"
+    },
+    {
+      "id": "Public Works, Transportation & Commerce",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "spending"
+    },
+    {
+      "id": "General City Responsibilities",
+      "edited id": "",
+      "definition": "A tax paid on a property that is proportional to the property's assessed value.",
+      "category": "spending"
+    }
+  ],
+  "links": [
+    {
+      "source": "Business Taxes",
+      "target": "General Fund",
+      "value": 957140000
+    },
+    {
+      "source": "Business Taxes",
+      "target": "Special Revenue Funds",
+      "value": 556670000
+    },
+    {
+      "source": "Charges for Services",
+      "target": "Component Units",
+      "value": 311000
+    },
+    {
+      "source": "Charges for Services",
+      "target": "Enterprise Funds",
+      "value": 3446860624
+    },
+    {
+      "source": "Charges for Services",
+      "target": "General Fund",
+      "value": 255110935
+    },
+    {
+      "source": "Charges for Services",
+      "target": "Internal Service Funds",
+      "value": 632609
+    },
+    {
+      "source": "Charges for Services",
+      "target": "Private Purpose Trust Fund",
+      "value": 2953402
+    },
+    {
+      "source": "Charges for Services",
+      "target": "Special Revenue Funds",
+      "value": 116401214
+    },
+    {
+      "source": "Contributions Ret/HSS/HlthCare",
+      "target": "Pension, Other Employee and Ot",
+      "value": 39523718
+    },
+    {
+      "source": "Expenditure Recovery",
+      "target": "Component Units",
+      "value": 100000
+    },
+    {
+      "source": "Expenditure Recovery",
+      "target": "Enterprise Funds",
+      "value": 160373729
+    },
+    {
+      "source": "Expenditure Recovery",
+      "target": "General Fund",
+      "value": 594421165
+    },
+    {
+      "source": "Expenditure Recovery",
+      "target": "Internal Service Funds",
+      "value": 169009801
+    },
+    {
+      "source": "Expenditure Recovery",
+      "target": "Pension, Other Employee and Ot",
+      "value": 110000
+    },
+    {
+      "source": "Expenditure Recovery",
+      "target": "Special Revenue Funds",
+      "value": 266192373
+    },
+    {
+      "source": "Fines, Forfeiture, & Penalties",
+      "target": "Debt Service Funds",
+      "value": 18406400
+    },
+    {
+      "source": "Fines, Forfeiture, & Penalties",
+      "target": "Enterprise Funds",
+      "value": 113250159
+    },
+    {
+      "source": "Fines, Forfeiture, & Penalties",
+      "target": "General Fund",
+      "value": 4034532
+    },
+    {
+      "source": "Fines, Forfeiture, & Penalties",
+      "target": "Special Revenue Funds",
+      "value": 11335028
+    },
+    {
+      "source": "Interest & Investment Income",
+      "target": "Capital Projects Funds",
+      "value": 2292978
+    },
+    {
+      "source": "Interest & Investment Income",
+      "target": "Enterprise Funds",
+      "value": 32394612
+    },
+    {
+      "source": "Interest & Investment Income",
+      "target": "General Fund",
+      "value": 36247329
+    },
+    {
+      "source": "Interest & Investment Income",
+      "target": "Investment Trust Fund",
+      "value": 81000
+    },
+    {
+      "source": "Interest & Investment Income",
+      "target": "Pension, Other Employee and Ot",
+      "value": 400000
+    },
+    {
+      "source": "Interest & Investment Income",
+      "target": "Permanent Fund",
+      "value": 15000
+    },
+    {
+      "source": "Interest & Investment Income",
+      "target": "Private Purpose Trust Fund",
+      "value": 419471
+    },
+    {
+      "source": "Interest & Investment Income",
+      "target": "Special Revenue Funds",
+      "value": 4086812
+    },
+    {
+      "source": "Intergovernmental: Federal",
+      "target": "Enterprise Funds",
+      "value": 309355357
+    },
+    {
+      "source": "Intergovernmental: Federal",
+      "target": "General Fund",
+      "value": 359612475
+    },
+    {
+      "source": "Intergovernmental: Federal",
+      "target": "Private Purpose Trust Fund",
+      "value": 2920972
+    },
+    {
+      "source": "Intergovernmental: Federal",
+      "target": "Special Revenue Funds",
+      "value": 247127333
+    },
+    {
+      "source": "Intergovernmental: Other",
+      "target": "Capital Projects Funds",
+      "value": 630000
+    },
+    {
+      "source": "Intergovernmental: Other",
+      "target": "Enterprise Funds",
+      "value": 126727381
+    },
+    {
+      "source": "Intergovernmental: Other",
+      "target": "General Fund",
+      "value": 2781041
+    },
+    {
+      "source": "Intergovernmental: Other",
+      "target": "Internal Service Funds",
+      "value": 41126
+    },
+    {
+      "source": "Intergovernmental: Other",
+      "target": "Special Revenue Funds",
+      "value": 4021966
+    },
+    {
+      "source": "Intergovernmental: State",
+      "target": "Capital Projects Funds",
+      "value": 207000
+    },
+    {
+      "source": "Intergovernmental: State",
+      "target": "Debt Service Funds",
+      "value": 800000
+    },
+    {
+      "source": "Intergovernmental: State",
+      "target": "Enterprise Funds",
+      "value": 126028045
+    },
+    {
+      "source": "Intergovernmental: State",
+      "target": "General Fund",
+      "value": 854372018
+    },
+    {
+      "source": "Intergovernmental: State",
+      "target": "Investment Trust Fund",
+      "value": 99157603
+    },
+    {
+      "source": "Intergovernmental: State",
+      "target": "Special Revenue Funds",
+      "value": 177712608
+    },
+    {
+      "source": "IntraFund Transfers In",
+      "target": "Enterprise Funds",
+      "value": 678950200
+    },
+    {
+      "source": "IntraFund Transfers In",
+      "target": "General Fund",
+      "value": 743227512
+    },
+    {
+      "source": "IntraFund Transfers In",
+      "target": "Internal Service Funds",
+      "value": 1200000
+    },
+    {
+      "source": "IntraFund Transfers In",
+      "target": "Special Revenue Funds",
+      "value": 57522118
+    },
+    {
+      "source": "Licenses, Permits,& Franchises",
+      "target": "Enterprise Funds",
+      "value": 19412844
+    },
+    {
+      "source": "Licenses, Permits,& Franchises",
+      "target": "General Fund",
+      "value": 27944010
+    },
+    {
+      "source": "Licenses, Permits,& Franchises",
+      "target": "Special Revenue Funds",
+      "value": 9233752
+    },
+    {
+      "source": "Other Financing Sources",
+      "target": "Capital Projects Funds",
+      "value": 67500000
+    },
+    {
+      "source": "Other Financing Sources",
+      "target": "Private Purpose Trust Fund",
+      "value": 9956582
+    },
+    {
+      "source": "Other Financing Sources",
+      "target": "Special Revenue Funds",
+      "value": 2400683
+    },
+    {
+      "source": "Other Local Taxes",
+      "target": "General Fund",
+      "value": 777750000
+    },
+    {
+      "source": "Other Local Taxes",
+      "target": "Private Purpose Trust Fund",
+      "value": 4506500
+    },
+    {
+      "source": "Other Local Taxes",
+      "target": "Special Revenue Funds",
+      "value": 18581031
+    },
+    {
+      "source": "Other Revenues",
+      "target": "Component Units",
+      "value": 15254338
+    },
+    {
+      "source": "Other Revenues",
+      "target": "Debt Service Funds",
+      "value": 7660481
+    },
+    {
+      "source": "Other Revenues",
+      "target": "Enterprise Funds",
+      "value": 181738663
+    },
+    {
+      "source": "Other Revenues",
+      "target": "General Fund",
+      "value": 24237535
+    },
+    {
+      "source": "Other Revenues",
+      "target": "Permanent Fund",
+      "value": 15000
+    },
+    {
+      "source": "Other Revenues",
+      "target": "Private Purpose Trust Fund",
+      "value": 23816299
+    },
+    {
+      "source": "Other Revenues",
+      "target": "Special Revenue Funds",
+      "value": 34814290
+    },
+    {
+      "source": "Property Taxes",
+      "target": "Debt Service Funds",
+      "value": 350355572
+    },
+    {
+      "source": "Property Taxes",
+      "target": "General Fund",
+      "value": 2115600000
+    },
+    {
+      "source": "Property Taxes",
+      "target": "Private Purpose Trust Fund",
+      "value": 144882894
+    },
+    {
+      "source": "Property Taxes",
+      "target": "Special Revenue Funds",
+      "value": 248134000
+    },
+    {
+      "source": "Rents & Concessions",
+      "target": "Component Units",
+      "value": 11250000
+    },
+    {
+      "source": "Rents & Concessions",
+      "target": "Enterprise Funds",
+      "value": 391890227
+    },
+    {
+      "source": "Rents & Concessions",
+      "target": "General Fund",
+      "value": 11728090
+    },
+    {
+      "source": "Rents & Concessions",
+      "target": "Internal Service Funds",
+      "value": 528265
+    },
+    {
+      "source": "Rents & Concessions",
+      "target": "Permanent Fund",
+      "value": 22500
+    },
+    {
+      "source": "Rents & Concessions",
+      "target": "Private Purpose Trust Fund",
+      "value": 479689
+    },
+    {
+      "source": "Rents & Concessions",
+      "target": "Special Revenue Funds",
+      "value": 39984064
+    },
+    {
+      "source": "Transfers In",
+      "target": "Debt Service Funds",
+      "value": 2250000
+    },
+    {
+      "source": "Transfers In",
+      "target": "Enterprise Funds",
+      "value": 361846475
+    },
+    {
+      "source": "Transfers In",
+      "target": "General Fund",
+      "value": 158329019
+    },
+    {
+      "source": "Transfers In",
+      "target": "Internal Service Funds",
+      "value": 500000
+    },
+    {
+      "source": "Transfers In",
+      "target": "Special Revenue Funds",
+      "value": 194337148
+    },
+    {
+      "source": "Unappropriated Fund Balance",
+      "target": "Capital Projects Funds",
+      "value": 3000000
+    },
+    {
+      "source": "Unappropriated Fund Balance",
+      "target": "Enterprise Funds",
+      "value": 100150384
+    },
+    {
+      "source": "Unappropriated Fund Balance",
+      "target": "General Fund",
+      "value": 778545814
+    },
+    {
+      "source": "Unappropriated Fund Balance",
+      "target": "Internal Service Funds",
+      "value": 3380521
+    },
+    {
+      "source": "Unappropriated Fund Balance",
+      "target": "Permanent Fund",
+      "value": 62500
+    },
+    {
+      "source": "Unappropriated Fund Balance",
+      "target": "Private Purpose Trust Fund",
+      "value": 30810073
+    },
+    {
+      "source": "Unappropriated Fund Balance",
+      "target": "Special Revenue Funds",
+      "value": 203005647
+    },
+    {
+      "source": "Capital Projects Funds",
+      "target": "Community Health",
+      "value": 10100000
+    },
+    {
+      "source": "Capital Projects Funds",
+      "target": "Culture & Recreation",
+      "value": 6229978
+    },
+    {
+      "source": "Capital Projects Funds",
+      "target": "General Administration & Finance",
+      "value": 36443000
+    },
+    {
+      "source": "Capital Projects Funds",
+      "target": "Human Welfare & Neighborhood Development",
+      "value": 2000000
+    },
+    {
+      "source": "Capital Projects Funds",
+      "target": "Public Protection",
+      "value": 9857000
+    },
+    {
+      "source": "Capital Projects Funds",
+      "target": "Public Works, Transportation & Commerce",
+      "value": 9000000
+    },
+    {
+      "source": "Component Units",
+      "target": "General Administration & Finance",
+      "value": 26815338
+    },
+    {
+      "source": "Debt Service Funds",
+      "target": "General City Responsibilities",
+      "value": 379472453
+    },
+    {
+      "source": "Enterprise Funds",
+      "target": "Community Health",
+      "value": 1383578784
+    },
+    {
+      "source": "Enterprise Funds",
+      "target": "Public Protection",
+      "value": 102746326
+    },
+    {
+      "source": "Enterprise Funds",
+      "target": "Public Works, Transportation & Commerce",
+      "value": 3978424335
+    },
+    {
+      "source": "General Fund",
+      "target": "Community Health",
+      "value": 1056458931
+    },
+    {
+      "source": "General Fund",
+      "target": "Culture & Recreation",
+      "value": 220866400
+    },
+    {
+      "source": "General Fund",
+      "target": "General Administration & Finance",
+      "value": 497915463
+    },
+    {
+      "source": "General Fund",
+      "target": "General City Responsibilities",
+      "value": 251835451
+    },
+    {
+      "source": "General Fund",
+      "target": "Human Welfare & Neighborhood Development",
+      "value": 1418405892
+    },
+    {
+      "source": "General Fund",
+      "target": "Public Protection",
+      "value": 1505148517
+    },
+    {
+      "source": "General Fund",
+      "target": "Public Works, Transportation & Commerce",
+      "value": 236525404
+    },
+    {
+      "source": "Internal Service Funds",
+      "target": "General Administration & Finance",
+      "value": 5082521
+    },
+    {
+      "source": "Investment Trust Fund",
+      "target": "Public Protection",
+      "value": 99238603
+    },
+    {
+      "source": "Pension, Other Employee and Ot",
+      "target": "General Administration & Finance",
+      "value": 39923718
+    },
+    {
+      "source": "Permanent Fund",
+      "target": "Culture & Recreation",
+      "value": 115000
+    },
+    {
+      "source": "Private Purpose Trust Fund",
+      "target": "Human Welfare & Neighborhood Development",
+      "value": 220745882
+    },
+    {
+      "source": "Special Revenue Funds",
+      "target": "Community Health",
+      "value": 314610473
+    },
+    {
+      "source": "Special Revenue Funds",
+      "target": "Culture & Recreation",
+      "value": 300116553
+    },
+    {
+      "source": "Special Revenue Funds",
+      "target": "General Administration & Finance",
+      "value": 231257121
+    },
+    {
+      "source": "Special Revenue Funds",
+      "target": "General City Responsibilities",
+      "value": 6939017
+    },
+    {
+      "source": "Special Revenue Funds",
+      "target": "Human Welfare & Neighborhood Development",
+      "value": 947244265
+    },
+    {
+      "source": "Special Revenue Funds",
+      "target": "Public Protection",
+      "value": 76633878
+    },
+    {
+      "source": "Special Revenue Funds",
+      "target": "Public Works, Transportation & Commerce",
+      "value": 194963693
+    }
+  ]
+}

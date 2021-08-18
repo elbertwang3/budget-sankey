@@ -1,30 +1,42 @@
 <script>
-	export let name;
+  import { LayerCake, Svg } from "layercake";
+  import data from "./data/data";
+  import Sankey from "./Sankey.svelte";
+  import Tooltip from "./Tooltip.svelte";
+
+  console.log(data);
+
+  let hoveredNode, hoveredLink;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+  <div class="chart-container">
+    <LayerCake {data} padding={{ top: 30, right: 0, bottom: 0, left: 0 }}>
+      <Svg>
+        <defs>
+          <linearGradient id="rToF" x1="0" y1="0" x2="100%" y2="0"
+            ><stop offset="0%" stop-color="#25C2E4" /><stop
+              offset="100%"
+              stop-color="#FFCA42"
+            /></linearGradient
+          >
+          <linearGradient id="fToS" x1="0" y1="0" x2="100%" y2="0"
+            ><stop offset="0%" stop-color="#FFCA42" /><stop
+              offset="100%"
+              stop-color="#F15F27"
+            /></linearGradient
+          >
+        </defs>
+        <Sankey bind:hoveredNode bind:hoveredLink />
+      </Svg>
+      <Tooltip {hoveredNode} {hoveredLink} />
+    </LayerCake>
+  </div>
 </main>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
+  .chart-container {
+    width: 100%;
+    height: 600px;
+  }
 </style>

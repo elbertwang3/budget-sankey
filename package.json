@@ -5,11 +5,23 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "start": "sirv public --no-clear",
+    "quaff": "node scripts/quaff.js",
+    "data:fetch": "node scripts/fetch-data.js"
   },
   "devDependencies": {
+    "@newswire/doc-to-archieml": "^1.0.0",
+    "@newswire/sheet-to-data": "^1.0.0",
     "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
+    "ansi-colors": "^4.1.1",
+    "d3": "^7.0.1",
+    "d3-sankey": "^0.12.3",
+    "fs-extra": "^10.0.0",
+    "googleapis": "^84.0.0",
+    "layercake": "^5.0.0",
+    "quaff": "^5.0.0",
     "rollup": "^2.3.4",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.0",

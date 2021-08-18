@@ -1,0 +1,116 @@
+source,target,value
+Business Taxes,General Fund,957140000.0
+Business Taxes,Special Revenue Funds,556670000.0
+Charges for Services,Component Units,311000.0
+Charges for Services,Enterprise Funds,3446860624.0
+Charges for Services,General Fund,255110935.0
+Charges for Services,Internal Service Funds,632609.0
+Charges for Services,Private Purpose Trust Fund,2953402.0
+Charges for Services,Special Revenue Funds,116401214.0
+Contributions Ret/HSS/HlthCare,"Pension, Other Employee and Ot",39523718.0
+Expenditure Recovery,Component Units,100000.0
+Expenditure Recovery,Enterprise Funds,160373729.0
+Expenditure Recovery,General Fund,594421165.0
+Expenditure Recovery,Internal Service Funds,169009801.0
+Expenditure Recovery,"Pension, Other Employee and Ot",110000.0
+Expenditure Recovery,Special Revenue Funds,266192373.0
+"Fines, Forfeiture, & Penalties",Debt Service Funds,18406400.0
+"Fines, Forfeiture, & Penalties",Enterprise Funds,113250159.0
+"Fines, Forfeiture, & Penalties",General Fund,4034532.0
+"Fines, Forfeiture, & Penalties",Special Revenue Funds,11335028.0
+Interest & Investment Income,Capital Projects Funds,2292978.0
+Interest & Investment Income,Enterprise Funds,32394612.0
+Interest & Investment Income,General Fund,36247329.0
+Interest & Investment Income,Investment Trust Fund,81000.0
+Interest & Investment Income,"Pension, Other Employee and Ot",400000.0
+Interest & Investment Income,Permanent Fund,15000.0
+Interest & Investment Income,Private Purpose Trust Fund,419471.0
+Interest & Investment Income,Special Revenue Funds,4086812.0
+Intergovernmental: Federal,Enterprise Funds,309355357.0
+Intergovernmental: Federal,General Fund,359612475.0
+Intergovernmental: Federal,Private Purpose Trust Fund,2920972.0
+Intergovernmental: Federal,Special Revenue Funds,247127333.0
+Intergovernmental: Other,Capital Projects Funds,630000.0
+Intergovernmental: Other,Enterprise Funds,126727381.0
+Intergovernmental: Other,General Fund,2781041.0
+Intergovernmental: Other,Internal Service Funds,41126.0
+Intergovernmental: Other,Special Revenue Funds,4021966.0
+Intergovernmental: State,Capital Projects Funds,207000.0
+Intergovernmental: State,Debt Service Funds,800000.0
+Intergovernmental: State,Enterprise Funds,126028045.0
+Intergovernmental: State,General Fund,854372018.0
+Intergovernmental: State,Investment Trust Fund,99157603.0
+Intergovernmental: State,Special Revenue Funds,177712608.0
+IntraFund Transfers In,Enterprise Funds,678950200.0
+IntraFund Transfers In,General Fund,743227512.0
+IntraFund Transfers In,Internal Service Funds,1200000.0
+IntraFund Transfers In,Special Revenue Funds,57522118.0
+"Licenses, Permits,& Franchises",Enterprise Funds,19412844.0
+"Licenses, Permits,& Franchises",General Fund,27944010.0
+"Licenses, Permits,& Franchises",Special Revenue Funds,9233752.0
+Other Financing Sources,Capital Projects Funds,67500000.0
+Other Financing Sources,Private Purpose Trust Fund,9956582.0
+Other Financing Sources,Special Revenue Funds,2400683.0
+Other Local Taxes,General Fund,777750000.0
+Other Local Taxes,Private Purpose Trust Fund,4506500.0
+Other Local Taxes,Special Revenue Funds,18581031.0
+Other Revenues,Component Units,15254338.0
+Other Revenues,Debt Service Funds,7660481.0
+Other Revenues,Enterprise Funds,181738663.0
+Other Revenues,General Fund,24237535.0
+Other Revenues,Permanent Fund,15000.0
+Other Revenues,Private Purpose Trust Fund,23816299.0
+Other Revenues,Special Revenue Funds,34814290.0
+Property Taxes,Debt Service Funds,350355572.0
+Property Taxes,General Fund,2115600000.0
+Property Taxes,Private Purpose Trust Fund,144882894.0
+Property Taxes,Special Revenue Funds,248134000.0
+Rents & Concessions,Component Units,11250000.0
+Rents & Concessions,Enterprise Funds,391890227.0
+Rents & Concessions,General Fund,11728090.0
+Rents & Concessions,Internal Service Funds,528265.0
+Rents & Concessions,Permanent Fund,22500.0
+Rents & Concessions,Private Purpose Trust Fund,479689.0
+Rents & Concessions,Special Revenue Funds,39984064.0
+Transfers In,Debt Service Funds,2250000.0
+Transfers In,Enterprise Funds,361846475.0
+Transfers In,General Fund,158329019.0
+Transfers In,Internal Service Funds,500000.0
+Transfers In,Special Revenue Funds,194337148.0
+Unappropriated Fund Balance,Capital Projects Funds,3000000.0
+Unappropriated Fund Balance,Enterprise Funds,100150384.0
+Unappropriated Fund Balance,General Fund,778545814.0
+Unappropriated Fund Balance,Internal Service Funds,3380521.0
+Unappropriated Fund Balance,Permanent Fund,62500.0
+Unappropriated Fund Balance,Private Purpose Trust Fund,30810073.0
+Unappropriated Fund Balance,Special Revenue Funds,203005647.0
+Capital Projects Funds,Community Health,10100000.0
+Capital Projects Funds,Culture & Recreation,6229978.0
+Capital Projects Funds,General Administration & Finance,36443000.0
+Capital Projects Funds,Human Welfare & Neighborhood Development,2000000.0
+Capital Projects Funds,Public Protection,9857000.0
+Capital Projects Funds,"Public Works, Transportation & Commerce",9000000.0
+Component Units,General Administration & Finance,26815338.0
+Debt Service Funds,General City Responsibilities,379472453.0
+Enterprise Funds,Community Health,1383578784.0
+Enterprise Funds,Public Protection,102746326.0
+Enterprise Funds,"Public Works, Transportation & Commerce",3978424335.0
+General Fund,Community Health,1056458931.0
+General Fund,Culture & Recreation,220866400.0
+General Fund,General Administration & Finance,497915463.0
+General Fund,General City Responsibilities,251835451.0
+General Fund,Human Welfare & Neighborhood Development,1418405892.0
+General Fund,Public Protection,1505148517.0
+General Fund,"Public Works, Transportation & Commerce",236525404.0
+Internal Service Funds,General Administration & Finance,5082521.0
+Investment Trust Fund,Public Protection,99238603.0
+"Pension, Other Employee and Ot",General Administration & Finance,39923718.0
+Permanent Fund,Culture & Recreation,115000.0
+Private Purpose Trust Fund,Human Welfare & Neighborhood Development,220745882.0
+Special Revenue Funds,Community Health,314610473.0
+Special Revenue Funds,Culture & Recreation,300116553.0
+Special Revenue Funds,General Administration & Finance,231257121.0
+Special Revenue Funds,General City Responsibilities,6939017.0
+Special Revenue Funds,Human Welfare & Neighborhood Development,947244265.0
+Special Revenue Funds,Public Protection,76633878.0
+Special Revenue Funds,"Public Works, Transportation & Commerce",194963693.0
