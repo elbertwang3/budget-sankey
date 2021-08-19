@@ -55,7 +55,7 @@
       "category": "revenues"
     },
     {
-      "id": "IntraFund Transfers In",
+      "id": "Intrafund Transfers In",
       "edited id": "",
       "definition": "Revenue transfers between city funds.",
       "category": "revenues"
@@ -214,6 +214,12 @@
       "id": "General City Responsibilities",
       "edited id": "",
       "definition": "Spending not directly attributable to one city department, or that is citywide in nature.",
+      "category": "spending"
+    },
+    {
+      "id": "Transfer Adjustment-Source",
+      "edited id": "",
+      "definition": "Transfer Adjustment-Source",
       "category": "spending"
     }
   ],
@@ -429,22 +435,22 @@
       "value": 177712608
     },
     {
-      "source": "IntraFund Transfers In",
+      "source": "Intrafund Transfers In",
       "target": "Enterprise Funds",
       "value": 678950200
     },
     {
-      "source": "IntraFund Transfers In",
+      "source": "Intrafund Transfers In",
       "target": "General Fund",
       "value": 743227512
     },
     {
-      "source": "IntraFund Transfers In",
+      "source": "Intrafund Transfers In",
       "target": "Internal Service Funds",
       "value": 1200000
     },
     {
-      "source": "IntraFund Transfers In",
+      "source": "Intrafund Transfers In",
       "target": "Special Revenue Funds",
       "value": 57522118
     },
@@ -582,6 +588,41 @@
       "source": "Rents & Concessions",
       "target": "Special Revenue Funds",
       "value": 39984064
+    },
+    {
+      "source": "Component Units",
+      "target": "Transfer Adjustment-Source",
+      "value": 100000
+    },
+    {
+      "source": "Debt Service Funds",
+      "target": "Transfer Adjustment-Source",
+      "value": 2250000
+    },
+    {
+      "source": "Enterprise Funds",
+      "target": "Transfer Adjustment-Source",
+      "value": 1201170404
+    },
+    {
+      "source": "General Fund",
+      "target": "Transfer Adjustment-Source",
+      "value": 1495977696
+    },
+    {
+      "source": "Internal Service Funds",
+      "target": "Transfer Adjustment-Source",
+      "value": 170709801
+    },
+    {
+      "source": "Pension, Other Employee and Ot",
+      "target": "Transfer Adjustment-Source",
+      "value": 110000
+    },
+    {
+      "source": "Special Revenue Funds",
+      "target": "Transfer Adjustment-Source",
+      "value": 518051639
     },
     {
       "source": "Transfers In",

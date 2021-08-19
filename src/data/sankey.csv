@@ -41,10 +41,10 @@ Intergovernmental: State,Enterprise Funds,126028045.0
 Intergovernmental: State,General Fund,854372018.0
 Intergovernmental: State,Investment Trust Fund,99157603.0
 Intergovernmental: State,Special Revenue Funds,177712608.0
-IntraFund Transfers In,Enterprise Funds,678950200.0
-IntraFund Transfers In,General Fund,743227512.0
-IntraFund Transfers In,Internal Service Funds,1200000.0
-IntraFund Transfers In,Special Revenue Funds,57522118.0
+Intrafund Transfers In,Enterprise Funds,678950200.0
+Intrafund Transfers In,General Fund,743227512.0
+Intrafund Transfers In,Internal Service Funds,1200000.0
+Intrafund Transfers In,Special Revenue Funds,57522118.0
 "Licenses, Permits,& Franchises",Enterprise Funds,19412844.0
 "Licenses, Permits,& Franchises",General Fund,27944010.0
 "Licenses, Permits,& Franchises",Special Revenue Funds,9233752.0
@@ -72,6 +72,13 @@ Rents & Concessions,Internal Service Funds,528265.0
 Rents & Concessions,Permanent Fund,22500.0
 Rents & Concessions,Private Purpose Trust Fund,479689.0
 Rents & Concessions,Special Revenue Funds,39984064.0
+Component Units,Transfer Adjustment-Source,100000.0
+Debt Service Funds,Transfer Adjustment-Source,2250000.0
+Enterprise Funds,Transfer Adjustment-Source,1201170404.0
+General Fund,Transfer Adjustment-Source,1495977696.0
+Internal Service Funds,Transfer Adjustment-Source,170709801.0
+"Pension, Other Employee and Ot",Transfer Adjustment-Source,110000.0
+Special Revenue Funds,Transfer Adjustment-Source,518051639.0
 Transfers In,Debt Service Funds,2250000.0
 Transfers In,Enterprise Funds,361846475.0
 Transfers In,General Fund,158329019.0

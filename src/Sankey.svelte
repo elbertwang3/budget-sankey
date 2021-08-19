@@ -25,7 +25,8 @@
     .nodePadding(nodePadding)
     .nodeId(nodeId)
     .size([$width, $height])
-    .linkSort(linkSort);
+    .linkSort(linkSort)
+    .iterations(200);
 
   $: sankeyData = sankey($data);
 
@@ -60,6 +61,7 @@
   </g>
   <g class="rect-group">
     {#each sankeyData.nodes as d, i}
+      <!-- {#if d.id != "Transfer Adjustment-Source"} -->
       <rect
         class="node"
         x={d.x0}
@@ -72,6 +74,8 @@
         }}
         on:mouseout={() => (hoveredNode = null)}
       />
+      <!-- {/if} -->
+
       <text
         class="node-label"
         x={d.x0 < $width / 4 ? d.x1 + 6 : d.x0 - 6}
