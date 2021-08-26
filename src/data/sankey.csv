@@ -72,13 +72,13 @@ Rents & Concessions,Internal Service Funds,528265.0
 Rents & Concessions,Permanent Fund,22500.0
 Rents & Concessions,Private Purpose Trust Fund,479689.0
 Rents & Concessions,Special Revenue Funds,39984064.0
-Component Units,Transfer Adjustment-Source,100000.0
-Debt Service Funds,Transfer Adjustment-Source,2250000.0
-Enterprise Funds,Transfer Adjustment-Source,1201170404.0
-General Fund,Transfer Adjustment-Source,1495977696.0
-Internal Service Funds,Transfer Adjustment-Source,170709801.0
-"Pension, Other Employee and Ot",Transfer Adjustment-Source,110000.0
-Special Revenue Funds,Transfer Adjustment-Source,518051639.0
+Transfer Adjustment-Source,Component Units,-100000.0
+Transfer Adjustment-Source,Debt Service Funds,-2250000.0
+Transfer Adjustment-Source,Enterprise Funds,-1201170404.0
+Transfer Adjustment-Source,General Fund,-1495977696.0
+Transfer Adjustment-Source,Internal Service Funds,-170709801.0
+Transfer Adjustment-Source,"Pension, Other Employee and Ot",-110000.0
+Transfer Adjustment-Source,Special Revenue Funds,-518051639.0
 Transfers In,Debt Service Funds,2250000.0
 Transfers In,Enterprise Funds,361846475.0
 Transfers In,General Fund,158329019.0
