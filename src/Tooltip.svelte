@@ -10,12 +10,13 @@
   $: hovered = hoveredNode ? hoveredNode : hoveredLink;
   //   $: console.log(hovered);
 
-  $: if (hovered) {
+  $: if (hoveredNode) {
     // console.log(hovered.e);
     // console.log(
     //   (hovered.data.y0 + hovered.data.y1) / 2 + tooltipHeight,
     //   $height
     // );
+    // console.log(hoveredNode);
   }
 
   const formatDollars = (d) => {
@@ -53,6 +54,11 @@
       <div class="definition">
         {hovered.data.definition}
       </div>
+      {#if hovered.data.category != "funds"}
+        <div class="value">
+          {formatDollars(hovered.data.value)}
+        </div>
+      {/if}
     {:else}
       <div class="description">
         {hovered.data.source.id} → {hovered.data.target.id}
@@ -88,6 +94,7 @@
   }
 
   .value {
+    margin-top: 0.25rem;
     font-weight: 600;
     font-size: 1.5rem;
   }
