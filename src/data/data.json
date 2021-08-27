@@ -2,224 +2,187 @@
   "nodes": [
     {
       "id": "Business Taxes",
-      "edited id": "",
       "definition": "Taxes collected from businesses, including gross receipts taxes, commercial rent taxes, administrative office taxes and others. ",
       "category": "revenues"
     },
     {
       "id": "Charges for Services",
-      "edited id": "",
       "definition": "Fees paid by residents and organizations for city services, ranging from hospital fees and building inspections to street cleaning. ",
       "category": "revenues"
     },
     {
       "id": "Contributions Ret/HSS/HlthCare",
-      "edited id": "",
       "definition": "Employee contributions to retirement and healthcare funds.",
       "category": "revenues"
     },
     {
       "id": "Expenditure Recovery",
-      "edited id": "",
       "definition": "Revenue from services performed by city departments for other city departments.",
       "category": "revenues"
     },
     {
       "id": "Fines, Forfeiture, & Penalties",
-      "edited id": "",
       "definition": "Fines and penalties charged to residents, businesses and organizations. ",
       "category": "revenues"
     },
     {
       "id": "Interest & Investment Income",
-      "edited id": "",
       "definition": "Interest earned and other value appreciation of funds loaned or invested. ",
       "category": "revenues"
     },
     {
       "id": "Intergovernmental: Federal",
-      "edited id": "",
       "definition": "Funding from the U.S. federal government. ",
       "category": "revenues"
     },
     {
       "id": "Intergovernmental: Other",
-      "edited id": "",
       "definition": "Funding from other government entities. ",
       "category": "revenues"
     },
     {
       "id": "Intergovernmental: State",
-      "edited id": "",
       "definition": "Funding from the state of California. ",
       "category": "revenues"
     },
     {
       "id": "Intrafund Transfers In",
-      "edited id": "",
       "definition": "Revenue transfers between city funds.",
       "category": "revenues"
     },
     {
       "id": "Licenses, Permits,& Franchises",
-      "edited id": "",
       "definition": "Revenue from licenses and permits issued by the city. ",
       "category": "revenues"
     },
     {
       "id": "Other Financing Sources",
-      "edited id": "",
       "definition": "Miscellaneous financing",
       "category": "revenues"
     },
     {
       "id": "Other Local Taxes",
-      "edited id": "",
       "definition": "Sales taxes, hotel taxes, real estate transfer taxes and other assorted local taxes. ",
       "category": "revenues"
     },
     {
       "id": "Other Revenues",
-      "edited id": "",
       "definition": "Miscellaneous revenue",
       "category": "revenues"
     },
     {
       "id": "Property Taxes",
-      "edited id": "",
       "definition": "Taxes paid on property that is proportional to the property's assessed value.",
       "category": "revenues"
     },
     {
       "id": "Rents & Concessions",
-      "edited id": "",
       "definition": "Rental income and seller concessions for properties owned by the city. ",
       "category": "revenues"
     },
     {
       "id": "Transfers In",
-      "edited id": "",
       "definition": "Payments between city departments for services rendered. ",
       "category": "revenues"
     },
     {
       "id": "Unappropriated Fund Balance",
-      "edited id": "",
       "definition": "Reserves from a prior year that are now being used as a source of funds.",
       "category": "revenues"
     },
     {
       "id": "Capital Projects Funds",
-      "edited id": "",
       "definition": "Funds used for the acquisition or construction of major capital facilities",
       "category": "funds"
     },
     {
       "id": "Component Units",
-      "edited id": "",
       "definition": "Entities that are legally separate but financially accountable to the city, such as the San Francisco Redevelopment Agency.",
       "category": "funds"
     },
     {
       "id": "Debt Service Funds",
-      "edited id": "",
       "definition": "Funds used for long-term principal obligation, interest and related debt costs.",
       "category": "funds"
     },
     {
       "id": "Enterprise Funds",
-      "edited id": "",
       "definition": "Funds from city and county agencies, such as the airport and ports, that earn revenue much like a business enterprise. ",
       "category": "funds"
     },
     {
       "id": "General Fund",
-      "edited id": "",
       "definition": "The general operating fund for the city. ",
       "category": "funds"
     },
     {
       "id": "Internal Service Funds",
-      "edited id": "",
       "definition": "Funds for goods and services provided by one department or agency to another on a cost-reimbursement basis, such as the Health Service System.",
       "category": "funds"
     },
     {
       "id": "Investment Trust Fund",
-      "edited id": "",
       "definition": "A fiduciary fund used to report external investments.",
       "category": "funds"
     },
     {
       "id": "Pension, Other Employee and Ot",
-      "edited id": "",
       "definition": "Pension and employee benefit trust funds. ",
       "category": "funds"
     },
     {
       "id": "Permanent Fund",
-      "edited id": "",
       "definition": "Legally restricted funds to the extent that only\nearnings, and not principal, may be used for an ongoing purpose.",
       "category": "funds"
     },
     {
       "id": "Private Purpose Trust Fund",
-      "edited id": "",
       "definition": "Funds used for the benefit of individuals, private organizations, or other governments.",
       "category": "funds"
     },
     {
       "id": "Special Revenue Funds",
-      "edited id": "",
       "definition": "Proceeds of specific revenue sources (other than expendable trusts or major capital projects) that are legally restricted for specified purposes.",
       "category": "funds"
     },
     {
       "id": "Community Health",
-      "edited id": "",
       "definition": "Public health operations, services and infrastructure",
       "category": "spending"
     },
     {
       "id": "Culture & Recreation",
-      "edited id": "",
       "definition": "Parks, museums, libraries and other culture and recreation. ",
       "category": "spending"
     },
     {
       "id": "General Administration & Finance",
-      "edited id": "",
       "definition": "General administration of the city, such as human resources, finance, Mayor's Office and Board of Supervisors.",
       "category": "spending"
     },
     {
       "id": "Human Welfare & Neighborhood Development",
-      "edited id": "",
       "definition": "Social services and benefits for individuals, families and communities. ",
       "category": "spending"
     },
     {
       "id": "Public Protection",
-      "edited id": "",
       "definition": "Public safety spending, such as police and fire. ",
       "category": "spending"
     },
     {
       "id": "Public Works, Transportation & Commerce",
-      "edited id": "",
       "definition": "Transit, utilities, city maintenance and economic development.",
       "category": "spending"
     },
     {
       "id": "General City Responsibilities",
-      "edited id": "",
       "definition": "Spending not directly attributable to one city department, or that is citywide in nature.",
       "category": "spending"
     },
     {
       "id": "Transfer Adjustment-Source",
-      "edited id": "",
-      "definition": "Transfer Adjustment-Source",
+      "definition": "",
       "category": "spending"
     }
   ],

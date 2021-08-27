@@ -36,7 +36,9 @@
         : hovered.e.offsetY - tooltipHeight / 2
     }px; left: ${
       hovered.e.offsetX + tooltipWidth > $width
-        ? hovered.e.offsetX - tooltipWidth - offset
+        ? hovered.e.offsetX - tooltipWidth < 0
+          ? hovered.e.offsetX - tooltipWidth / 2
+          : hovered.e.offsetX - tooltipWidth - offset
         : hovered.e.offsetX + offset
     }px;`}
 >
@@ -52,11 +54,11 @@
         {hovered.data.definition}
       </div>
     {:else}
-      <div class="title">
-        {formatDollars(hovered.data.value)}
-      </div>
       <div class="description">
         {hovered.data.source.id} → {hovered.data.target.id}
+      </div>
+      <div class="value">
+        {formatDollars(hovered.data.value)}
       </div>
     {/if}
   {/if}
@@ -83,5 +85,10 @@
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 0.5rem;
+  }
+
+  .value {
+    font-weight: 600;
+    font-size: 1.5rem;
   }
 </style>

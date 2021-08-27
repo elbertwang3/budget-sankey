@@ -1,6 +1,8 @@
 <script>
-  import { getContext } from "svelte";
+  import { getContext, afterUpdate } from "svelte";
+  import { select, selectAll } from "d3-selection";
   import * as Sankey from "d3-sankey";
+  import { textwrap } from "d3-textwrap";
 
   const { data, width, height } = getContext("LayerCake");
 
@@ -15,7 +17,8 @@
   export let nodePadding = 10;
   export let linkSort = null;
   export let nodeId = (d) => d.id;
-  //   export let nodeAlign = Sankey.sankeyCenter;
+  const wrap = textwrap().bounds({ width: 150, height: 100 }).method("tspans");
+  let label;
 
   const color = { revenues: "#25C2E4", funds: "#FFCA42", spending: "#F15F27" };
 
@@ -29,13 +32,13 @@
     .iterations(200);
 
   $: sankeyData = sankey($data);
+  // $: console.log(sankeyData.nodes);
 
   $: link = Sankey.sankeyLinkHorizontal();
 
-  $: fontSize = $width <= 320 ? 8 : 12;
+  // afterUpdate(() => {
 
-  //   $: console.log(sankeyData.nodes);
-  //   $: console.log(sankeyData.links);
+  // });
 </script>
 
 <g class="sankey-layer">
@@ -56,35 +59,39 @@
           hoveredLink = { e: e, data: d };
         }}
         on:mouseout={() => (hoveredLink = null)}
+        on:blur={() => (hoveredLink = null)}
       />
     {/each}
   </g>
   <g class="rect-group">
     {#each sankeyData.nodes as d, i}
       <!-- {#if d.id != "Transfer Adjustment-Source"} -->
-      <rect
-        class="node"
-        x={d.x0}
-        y={d.y0}
-        height={d.y1 - d.y0}
-        width={d.x1 - d.x0}
-        fill={color[d.category]}
-        on:mousemove={(e) => {
-          hoveredNode = { e: e, data: d };
-        }}
-        on:mouseout={() => (hoveredNode = null)}
-      />
-      <!-- {/if} -->
-
-      <text
-        class="node-label"
-        x={d.x0 < $width / 4 ? d.x1 + 6 : d.x0 - 6}
-        y={(d.y1 + d.y0) / 2}
-        dy={fontSize / 2 - 2}
-        style="text-anchor: {d.x0 < $width / 4 ? 'start' : 'end'};"
-      >
-        {d.id}
-      </text>
+      <g>
+        <rect
+          class="node"
+          x={d.x0}
+          y={d.y0}
+          height={d.y1 - d.y0}
+          width={d.x1 - d.x0}
+          fill={color[d.category]}
+          on:mousemove={(e) => {
+            hoveredNode = { e: e, data: d };
+          }}
+          on:mouseout={() => (hoveredNode = null)}
+          on:blur={() => (hoveredLink = null)}
+        />
+        {#if d.value > 1000000000}
+          <text
+            bind:this={label}
+            class="node-label"
+            x={d.x0 < ($width * 3) / 4 ? d.x1 + 6 : d.x0 - 6}
+            y={(d.y1 + d.y0) / 2}
+            style="text-anchor: {d.x0 < ($width * 3) / 4 ? 'start' : 'end'};"
+          >
+            {d.id}
+          </text>
+        {/if}
+      </g>
     {/each}
   </g>
 </g>
