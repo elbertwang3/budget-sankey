@@ -4,7 +4,7 @@
   import Sankey from "./Sankey.svelte";
   import Tooltip from "./Tooltip.svelte";
 
-  console.log(data);
+  // console.log(data);
 
   let hoveredNode, hoveredLink;
 </script>
