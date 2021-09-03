@@ -184,6 +184,11 @@
       "id": "Transfer Adjustment-Source",
       "definition": "",
       "category": "spending"
+    },
+    {
+      "id": "Transfer Adjustment - Uses",
+      "definition": "",
+      "category": "revenues"
     }
   ],
   "links": [
@@ -553,39 +558,39 @@
       "value": 39984064
     },
     {
-      "source": "Component Units",
-      "target": "Transfer Adjustment-Source",
-      "value": 100000
+      "source": "Transfer Adjustment-Source",
+      "target": "Component Units",
+      "value": -100000
     },
     {
-      "source": "Debt Service Funds",
-      "target": "Transfer Adjustment-Source",
-      "value": 2250000
+      "source": "Transfer Adjustment-Source",
+      "target": "Debt Service Funds",
+      "value": -2250000
     },
     {
-      "source": "Enterprise Funds",
-      "target": "Transfer Adjustment-Source",
-      "value": 1201170404
+      "source": "Transfer Adjustment-Source",
+      "target": "Enterprise Funds",
+      "value": -1201170404
     },
     {
-      "source": "General Fund",
-      "target": "Transfer Adjustment-Source",
-      "value": 1495977696
+      "source": "Transfer Adjustment-Source",
+      "target": "General Fund",
+      "value": -1495977696
     },
     {
-      "source": "Internal Service Funds",
-      "target": "Transfer Adjustment-Source",
-      "value": 170709801
+      "source": "Transfer Adjustment-Source",
+      "target": "Internal Service Funds",
+      "value": -170709801
     },
     {
-      "source": "Pension, Other Employee and Ot",
-      "target": "Transfer Adjustment-Source",
-      "value": 110000
+      "source": "Transfer Adjustment-Source",
+      "target": "Pension, Other Employee and Ot",
+      "value": -110000
     },
     {
-      "source": "Special Revenue Funds",
-      "target": "Transfer Adjustment-Source",
-      "value": 518051639
+      "source": "Transfer Adjustment-Source",
+      "target": "Special Revenue Funds",
+      "value": -518051639
     },
     {
       "source": "Transfers In",

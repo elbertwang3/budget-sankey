@@ -32,8 +32,10 @@
   style={hovered &&
     hovered.e &&
     `top: ${
-      hovered.e.offsetY - tooltipHeight / 2 > $height
+      hovered.e.offsetY + tooltipHeight / 2 > $height
         ? hovered.e.offsetY - tooltipHeight
+        : hovered.e.offsetY - tooltipHeight < 0
+        ? hovered.e.offsetY
         : hovered.e.offsetY - tooltipHeight / 2
     }px; left: ${
       hovered.e.offsetX + tooltipWidth > $width

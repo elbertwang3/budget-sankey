@@ -29,7 +29,7 @@
     .nodeId(nodeId)
     .size([$width, $height])
     .linkSort(linkSort)
-    .iterations(200);
+    .iterations(5);
 
   $: sankeyData = sankey($data);
   // $: console.log(sankeyData.nodes);
