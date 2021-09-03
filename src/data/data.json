@@ -224,11 +224,6 @@
     },
     {
       "source": "Charges for Services",
-      "target": "Private Purpose Trust Fund",
-      "value": 2953402
-    },
-    {
-      "source": "Charges for Services",
       "target": "Special Revenue Funds",
       "value": 116401214
     },
@@ -304,11 +299,6 @@
     },
     {
       "source": "Interest & Investment Income",
-      "target": "Investment Trust Fund",
-      "value": 81000
-    },
-    {
-      "source": "Interest & Investment Income",
       "target": "Pension, Other Employee and Ot",
       "value": 400000
     },
@@ -316,11 +306,6 @@
       "source": "Interest & Investment Income",
       "target": "Permanent Fund",
       "value": 15000
-    },
-    {
-      "source": "Interest & Investment Income",
-      "target": "Private Purpose Trust Fund",
-      "value": 419471
     },
     {
       "source": "Interest & Investment Income",
@@ -336,11 +321,6 @@
       "source": "Intergovernmental: Federal",
       "target": "General Fund",
       "value": 359612475
-    },
-    {
-      "source": "Intergovernmental: Federal",
-      "target": "Private Purpose Trust Fund",
-      "value": 2920972
     },
     {
       "source": "Intergovernmental: Federal",
@@ -394,11 +374,6 @@
     },
     {
       "source": "Intergovernmental: State",
-      "target": "Investment Trust Fund",
-      "value": 99157603
-    },
-    {
-      "source": "Intergovernmental: State",
       "target": "Special Revenue Funds",
       "value": 177712608
     },
@@ -444,11 +419,6 @@
     },
     {
       "source": "Other Financing Sources",
-      "target": "Private Purpose Trust Fund",
-      "value": 9956582
-    },
-    {
-      "source": "Other Financing Sources",
       "target": "Special Revenue Funds",
       "value": 2400683
     },
@@ -456,11 +426,6 @@
       "source": "Other Local Taxes",
       "target": "General Fund",
       "value": 777750000
-    },
-    {
-      "source": "Other Local Taxes",
-      "target": "Private Purpose Trust Fund",
-      "value": 4506500
     },
     {
       "source": "Other Local Taxes",
@@ -494,11 +459,6 @@
     },
     {
       "source": "Other Revenues",
-      "target": "Private Purpose Trust Fund",
-      "value": 23816299
-    },
-    {
-      "source": "Other Revenues",
       "target": "Special Revenue Funds",
       "value": 34814290
     },
@@ -511,11 +471,6 @@
       "source": "Property Taxes",
       "target": "General Fund",
       "value": 2115600000
-    },
-    {
-      "source": "Property Taxes",
-      "target": "Private Purpose Trust Fund",
-      "value": 144882894
     },
     {
       "source": "Property Taxes",
@@ -546,11 +501,6 @@
       "source": "Rents & Concessions",
       "target": "Permanent Fund",
       "value": 22500
-    },
-    {
-      "source": "Rents & Concessions",
-      "target": "Private Purpose Trust Fund",
-      "value": 479689
     },
     {
       "source": "Rents & Concessions",
@@ -641,11 +591,6 @@
       "source": "Unappropriated Fund Balance",
       "target": "Permanent Fund",
       "value": 62500
-    },
-    {
-      "source": "Unappropriated Fund Balance",
-      "target": "Private Purpose Trust Fund",
-      "value": 30810073
     },
     {
       "source": "Unappropriated Fund Balance",
@@ -748,11 +693,6 @@
       "value": 5082521
     },
     {
-      "source": "Investment Trust Fund",
-      "target": "Public Protection",
-      "value": 99238603
-    },
-    {
       "source": "Pension, Other Employee and Ot",
       "target": "General Administration & Finance",
       "value": 39923718
@@ -761,11 +701,6 @@
       "source": "Permanent Fund",
       "target": "Culture & Recreation",
       "value": 115000
-    },
-    {
-      "source": "Private Purpose Trust Fund",
-      "target": "Human Welfare & Neighborhood Development",
-      "value": 220745882
     },
     {
       "source": "Special Revenue Funds",
