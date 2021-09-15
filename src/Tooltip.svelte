@@ -21,6 +21,7 @@
 
   const formatDollars = (d) => {
     return format("$0.3s")(d).replace(/G/, "B").toLowerCase();
+    // return format(",")(d);
   };
 </script>
 
@@ -56,7 +57,7 @@
       <div class="definition">
         {hovered.data.definition}
       </div>
-      {#if hovered.data.category != "funds"}
+      {#if hovered.data.category != "fssdfsdunds"}
         <div class="value">
           {formatDollars(hovered.data.value)}
         </div>

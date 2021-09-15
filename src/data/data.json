@@ -189,6 +189,11 @@
       "id": "Transfer Adjustment - Uses",
       "definition": "",
       "category": "revenues"
+    },
+    {
+      "id": "Transfers Out",
+      "definition": "",
+      "category": "spending"
     }
   ],
   "links": [
@@ -231,36 +236,6 @@
       "source": "Contributions Ret/HSS/HlthCare",
       "target": "Pension, Other Employee and Ot",
       "value": 39523718
-    },
-    {
-      "source": "Expenditure Recovery",
-      "target": "Component Units",
-      "value": 100000
-    },
-    {
-      "source": "Expenditure Recovery",
-      "target": "Enterprise Funds",
-      "value": 160373729
-    },
-    {
-      "source": "Expenditure Recovery",
-      "target": "General Fund",
-      "value": 594421165
-    },
-    {
-      "source": "Expenditure Recovery",
-      "target": "Internal Service Funds",
-      "value": 169009801
-    },
-    {
-      "source": "Expenditure Recovery",
-      "target": "Special Revenue Funds",
-      "value": 266192373
-    },
-    {
-      "source": "Expenditure Recovery",
-      "target": "Pension, Other Employee and Ot",
-      "value": 110000
     },
     {
       "source": "Fines, Forfeiture, & Penalties",
@@ -378,26 +353,6 @@
       "value": 177712608
     },
     {
-      "source": "Intrafund Transfers In",
-      "target": "Enterprise Funds",
-      "value": 678950200
-    },
-    {
-      "source": "Intrafund Transfers In",
-      "target": "General Fund",
-      "value": 743227512
-    },
-    {
-      "source": "Intrafund Transfers In",
-      "target": "Internal Service Funds",
-      "value": 1200000
-    },
-    {
-      "source": "Intrafund Transfers In",
-      "target": "Special Revenue Funds",
-      "value": 57522118
-    },
-    {
       "source": "Licenses, Permits,& Franchises",
       "target": "Enterprise Funds",
       "value": 19412844
@@ -464,6 +419,11 @@
     },
     {
       "source": "Property Taxes",
+      "target": "Debt Service Funds",
+      "value": 350355572
+    },
+    {
+      "source": "Property Taxes",
       "target": "General Fund",
       "value": 2115600000
     },
@@ -471,11 +431,6 @@
       "source": "Property Taxes",
       "target": "Special Revenue Funds",
       "value": 248134000
-    },
-    {
-      "source": "Property Taxes",
-      "target": "Debt Service Funds",
-      "value": 350355572
     },
     {
       "source": "Rents & Concessions",
@@ -515,7 +470,7 @@
     {
       "source": "Transfers In",
       "target": "Enterprise Funds",
-      "value": 361846475
+      "value": 1031565465
     },
     {
       "source": "Transfers In",
@@ -530,7 +485,7 @@
     {
       "source": "Transfers In",
       "target": "Special Revenue Funds",
-      "value": 194337148
+      "value": 454411175
     },
     {
       "source": "Unappropriated Fund Balance",
@@ -595,7 +550,7 @@
     {
       "source": "Component Units",
       "target": "General Administration & Finance",
-      "value": 26915338
+      "value": 26815338
     },
     {
       "source": "Debt Service Funds",
@@ -604,13 +559,8 @@
     },
     {
       "source": "Enterprise Funds",
-      "target": "Public Works, Transportation & Commerce",
-      "value": 5126134758
-    },
-    {
-      "source": "Enterprise Funds",
       "target": "Community Health",
-      "value": 1489816606
+      "value": 1383578784
     },
     {
       "source": "Enterprise Funds",
@@ -618,49 +568,54 @@
       "value": 102746326
     },
     {
-      "source": "General Fund",
+      "source": "Enterprise Funds",
       "target": "Public Works, Transportation & Commerce",
-      "value": 393015803
+      "value": 3978424335
     },
     {
       "source": "General Fund",
       "target": "Community Health",
-      "value": 1104069766
-    },
-    {
-      "source": "General Fund",
-      "target": "Public Protection",
-      "value": 1562860847
-    },
-    {
-      "source": "General Fund",
-      "target": "General City Responsibilities",
-      "value": 1216166876
-    },
-    {
-      "source": "General Fund",
-      "target": "General Administration & Finance",
-      "value": 778208382
-    },
-    {
-      "source": "General Fund",
-      "target": "Human Welfare & Neighborhood Development",
-      "value": 1487487717
+      "value": 1056458931
     },
     {
       "source": "General Fund",
       "target": "Culture & Recreation",
-      "value": 229479067
+      "value": 220866400
+    },
+    {
+      "source": "General Fund",
+      "target": "General Administration & Finance",
+      "value": 497915463
+    },
+    {
+      "source": "General Fund",
+      "target": "General City Responsibilities",
+      "value": 249861573
+    },
+    {
+      "source": "General Fund",
+      "target": "Human Welfare & Neighborhood Development",
+      "value": 1418405892
+    },
+    {
+      "source": "General Fund",
+      "target": "Public Protection",
+      "value": 1507122395
+    },
+    {
+      "source": "General Fund",
+      "target": "Public Works, Transportation & Commerce",
+      "value": 236525404
     },
     {
       "source": "Internal Service Funds",
       "target": "General Administration & Finance",
-      "value": 175292322
+      "value": 5082521
     },
     {
       "source": "Pension, Other Employee and Ot",
       "target": "General Administration & Finance",
-      "value": 40033718
+      "value": 39923718
     },
     {
       "source": "Permanent Fund",
@@ -669,38 +624,53 @@
     },
     {
       "source": "Special Revenue Funds",
-      "target": "Public Works, Transportation & Commerce",
-      "value": 227894077
-    },
-    {
-      "source": "Special Revenue Funds",
       "target": "Community Health",
-      "value": 319678234
-    },
-    {
-      "source": "Special Revenue Funds",
-      "target": "Public Protection",
-      "value": 77924599
-    },
-    {
-      "source": "Special Revenue Funds",
-      "target": "General City Responsibilities",
-      "value": 43927231
-    },
-    {
-      "source": "Special Revenue Funds",
-      "target": "General Administration & Finance",
-      "value": 470577037
-    },
-    {
-      "source": "Special Revenue Funds",
-      "target": "Human Welfare & Neighborhood Development",
-      "value": 979551739
+      "value": 314610473
     },
     {
       "source": "Special Revenue Funds",
       "target": "Culture & Recreation",
-      "value": 332081177
+      "value": 300116553
+    },
+    {
+      "source": "Special Revenue Funds",
+      "target": "General Administration & Finance",
+      "value": 231257121
+    },
+    {
+      "source": "Special Revenue Funds",
+      "target": "General City Responsibilities",
+      "value": 6939017
+    },
+    {
+      "source": "Special Revenue Funds",
+      "target": "Human Welfare & Neighborhood Development",
+      "value": 947244265
+    },
+    {
+      "source": "Special Revenue Funds",
+      "target": "Public Protection",
+      "value": 76633878
+    },
+    {
+      "source": "Special Revenue Funds",
+      "target": "Public Works, Transportation & Commerce",
+      "value": 194963693
+    },
+    {
+      "source": "Enterprise Funds",
+      "target": "Transfers Out",
+      "value": 414624316
+    },
+    {
+      "source": "General Fund",
+      "target": "Transfers Out",
+      "value": 1176276740
+    },
+    {
+      "source": "Special Revenue Funds",
+      "target": "Transfers Out",
+      "value": 56154603
     }
   ]
 }
