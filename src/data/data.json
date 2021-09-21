@@ -82,12 +82,22 @@
     },
     {
       "id": "Transfers In",
-      "definition": "Payments between city departments for services rendered. ",
+      "definition": "Authorized transfers from one fund or department to another.",
       "category": "revenues"
     },
     {
-      "id": "Unappropriated Fund Balance",
-      "definition": "Reserves from a prior year that are now being used as a source of funds.",
+      "id": "Intergovernmental",
+      "definition": "Funding from the federal government, the state, and other local governments. ",
+      "category": "revenues"
+    },
+    {
+      "id": "Other Revenue",
+      "definition": "Revenue from licenses, fines, forfeiture, interest and other sources. ",
+      "category": "revenues"
+    },
+    {
+      "id": "Unappropriated Funds",
+      "definition": "Unspent funds from a prior year that are now being used as revenue. ",
       "category": "revenues"
     },
     {
@@ -146,6 +156,11 @@
       "category": "funds"
     },
     {
+      "id": "Other Funds",
+      "definition": "Funds for debt, pensions, health service and other uses. ",
+      "category": "funds"
+    },
+    {
       "id": "Community Health",
       "definition": "Public health operations, services and infrastructure",
       "category": "spending"
@@ -198,21 +213,6 @@
   ],
   "links": [
     {
-      "source": "Business Taxes",
-      "target": "General Fund",
-      "value": 957140000
-    },
-    {
-      "source": "Business Taxes",
-      "target": "Special Revenue Funds",
-      "value": 556670000
-    },
-    {
-      "source": "Charges for Services",
-      "target": "Component Units",
-      "value": 311000
-    },
-    {
       "source": "Charges for Services",
       "target": "Enterprise Funds",
       "value": 3446860624
@@ -224,8 +224,8 @@
     },
     {
       "source": "Charges for Services",
-      "target": "Internal Service Funds",
-      "value": 632609
+      "target": "Other Funds",
+      "value": 943609
     },
     {
       "source": "Charges for Services",
@@ -233,149 +233,34 @@
       "value": 116401214
     },
     {
-      "source": "Contributions Ret/HSS/HlthCare",
-      "target": "Pension, Other Employee and Ot",
-      "value": 39523718
-    },
-    {
-      "source": "Fines, Forfeiture, & Penalties",
-      "target": "Debt Service Funds",
-      "value": 18406400
-    },
-    {
-      "source": "Fines, Forfeiture, & Penalties",
+      "source": "Intergovernmental",
       "target": "Enterprise Funds",
-      "value": 113250159
+      "value": 562110783
     },
     {
-      "source": "Fines, Forfeiture, & Penalties",
+      "source": "Intergovernmental",
       "target": "General Fund",
-      "value": 4034532
+      "value": 1216765534
     },
     {
-      "source": "Fines, Forfeiture, & Penalties",
+      "source": "Intergovernmental",
+      "target": "Other Funds",
+      "value": 1678126
+    },
+    {
+      "source": "Intergovernmental",
       "target": "Special Revenue Funds",
-      "value": 11335028
+      "value": 428861907
     },
     {
-      "source": "Interest & Investment Income",
-      "target": "Capital Projects Funds",
-      "value": 2292978
-    },
-    {
-      "source": "Interest & Investment Income",
-      "target": "Enterprise Funds",
-      "value": 32394612
-    },
-    {
-      "source": "Interest & Investment Income",
+      "source": "Business Taxes",
       "target": "General Fund",
-      "value": 36247329
+      "value": 957140000
     },
     {
-      "source": "Interest & Investment Income",
-      "target": "Pension, Other Employee and Ot",
-      "value": 400000
-    },
-    {
-      "source": "Interest & Investment Income",
-      "target": "Permanent Fund",
-      "value": 15000
-    },
-    {
-      "source": "Interest & Investment Income",
+      "source": "Business Taxes",
       "target": "Special Revenue Funds",
-      "value": 4086812
-    },
-    {
-      "source": "Intergovernmental: Federal",
-      "target": "Enterprise Funds",
-      "value": 309355357
-    },
-    {
-      "source": "Intergovernmental: Federal",
-      "target": "General Fund",
-      "value": 359612475
-    },
-    {
-      "source": "Intergovernmental: Federal",
-      "target": "Special Revenue Funds",
-      "value": 247127333
-    },
-    {
-      "source": "Intergovernmental: Other",
-      "target": "Capital Projects Funds",
-      "value": 630000
-    },
-    {
-      "source": "Intergovernmental: Other",
-      "target": "Enterprise Funds",
-      "value": 126727381
-    },
-    {
-      "source": "Intergovernmental: Other",
-      "target": "General Fund",
-      "value": 2781041
-    },
-    {
-      "source": "Intergovernmental: Other",
-      "target": "Internal Service Funds",
-      "value": 41126
-    },
-    {
-      "source": "Intergovernmental: Other",
-      "target": "Special Revenue Funds",
-      "value": 4021966
-    },
-    {
-      "source": "Intergovernmental: State",
-      "target": "Capital Projects Funds",
-      "value": 207000
-    },
-    {
-      "source": "Intergovernmental: State",
-      "target": "Debt Service Funds",
-      "value": 800000
-    },
-    {
-      "source": "Intergovernmental: State",
-      "target": "Enterprise Funds",
-      "value": 126028045
-    },
-    {
-      "source": "Intergovernmental: State",
-      "target": "General Fund",
-      "value": 854372018
-    },
-    {
-      "source": "Intergovernmental: State",
-      "target": "Special Revenue Funds",
-      "value": 177712608
-    },
-    {
-      "source": "Licenses, Permits,& Franchises",
-      "target": "Enterprise Funds",
-      "value": 19412844
-    },
-    {
-      "source": "Licenses, Permits,& Franchises",
-      "target": "General Fund",
-      "value": 27944010
-    },
-    {
-      "source": "Licenses, Permits,& Franchises",
-      "target": "Special Revenue Funds",
-      "value": 9233752
-    },
-    {
-      "source": "Other Financing Sources",
-      "target": "Capital Projects Funds",
-      "value": 67500000
-    },
-    {
-      "source": "Other Financing Sources",
-      "target": "Special Revenue Funds",
-      "value": 2400683
+      "value": 556670000
     },
     {
       "source": "Other Local Taxes",
@@ -386,36 +271,6 @@
       "source": "Other Local Taxes",
       "target": "Special Revenue Funds",
       "value": 18581031
-    },
-    {
-      "source": "Other Revenues",
-      "target": "Component Units",
-      "value": 15254338
-    },
-    {
-      "source": "Other Revenues",
-      "target": "Debt Service Funds",
-      "value": 7660481
-    },
-    {
-      "source": "Other Revenues",
-      "target": "Enterprise Funds",
-      "value": 181738663
-    },
-    {
-      "source": "Other Revenues",
-      "target": "General Fund",
-      "value": 24237535
-    },
-    {
-      "source": "Other Revenues",
-      "target": "Permanent Fund",
-      "value": 15000
-    },
-    {
-      "source": "Other Revenues",
-      "target": "Special Revenue Funds",
-      "value": 34814290
     },
     {
       "source": "Property Taxes",
@@ -429,13 +284,8 @@
     },
     {
       "source": "Property Taxes",
-      "target": "Debt Service Funds",
+      "target": "Other Funds",
       "value": 350355572
-    },
-    {
-      "source": "Rents & Concessions",
-      "target": "Component Units",
-      "value": 11250000
     },
     {
       "source": "Rents & Concessions",
@@ -449,23 +299,13 @@
     },
     {
       "source": "Rents & Concessions",
-      "target": "Internal Service Funds",
-      "value": 528265
-    },
-    {
-      "source": "Rents & Concessions",
-      "target": "Permanent Fund",
-      "value": 22500
+      "target": "Other Funds",
+      "value": 11800765
     },
     {
       "source": "Rents & Concessions",
       "target": "Special Revenue Funds",
       "value": 39984064
-    },
-    {
-      "source": "Transfers In",
-      "target": "Debt Service Funds",
-      "value": 2250000
     },
     {
       "source": "Transfers In",
@@ -479,8 +319,8 @@
     },
     {
       "source": "Transfers In",
-      "target": "Internal Service Funds",
-      "value": 500000
+      "target": "Other Funds",
+      "value": 2750000
     },
     {
       "source": "Transfers In",
@@ -488,74 +328,44 @@
       "value": 454411175
     },
     {
-      "source": "Unappropriated Fund Balance",
-      "target": "Capital Projects Funds",
-      "value": 3000000
+      "source": "Other Revenue",
+      "target": "Enterprise Funds",
+      "value": 346796278
     },
     {
-      "source": "Unappropriated Fund Balance",
+      "source": "Other Revenue",
+      "target": "General Fund",
+      "value": 92463406
+    },
+    {
+      "source": "Other Revenue",
+      "target": "Special Revenue Funds",
+      "value": 61870565
+    },
+    {
+      "source": "Other Revenue",
+      "target": "Other Funds",
+      "value": 151067915
+    },
+    {
+      "source": "Unappropriated Funds",
       "target": "Enterprise Funds",
       "value": 100150384
     },
     {
-      "source": "Unappropriated Fund Balance",
+      "source": "Unappropriated Funds",
       "target": "General Fund",
       "value": 778545814
     },
     {
-      "source": "Unappropriated Fund Balance",
-      "target": "Internal Service Funds",
-      "value": 3380521
+      "source": "Unappropriated Funds",
+      "target": "Other Funds",
+      "value": 6443021
     },
     {
-      "source": "Unappropriated Fund Balance",
-      "target": "Permanent Fund",
-      "value": 62500
-    },
-    {
-      "source": "Unappropriated Fund Balance",
+      "source": "Unappropriated Funds",
       "target": "Special Revenue Funds",
       "value": 203005647
-    },
-    {
-      "source": "Capital Projects Funds",
-      "target": "Community Health",
-      "value": 10100000
-    },
-    {
-      "source": "Capital Projects Funds",
-      "target": "Culture & Recreation",
-      "value": 6229978
-    },
-    {
-      "source": "Capital Projects Funds",
-      "target": "General Administration & Finance",
-      "value": 36443000
-    },
-    {
-      "source": "Capital Projects Funds",
-      "target": "Human Welfare & Neighborhood Development",
-      "value": 2000000
-    },
-    {
-      "source": "Capital Projects Funds",
-      "target": "Public Protection",
-      "value": 9857000
-    },
-    {
-      "source": "Capital Projects Funds",
-      "target": "Public Works, Transportation & Commerce",
-      "value": 9000000
-    },
-    {
-      "source": "Component Units",
-      "target": "General Administration & Finance",
-      "value": 26815338
-    },
-    {
-      "source": "Debt Service Funds",
-      "target": "General City Responsibilities",
-      "value": 379472453
     },
     {
       "source": "Enterprise Funds",
@@ -571,6 +381,11 @@
       "source": "Enterprise Funds",
       "target": "Public Protection",
       "value": 102746326
+    },
+    {
+      "source": "Enterprise Funds",
+      "target": "Transfers Out",
+      "value": 414624316
     },
     {
       "source": "General Fund",
@@ -599,6 +414,11 @@
     },
     {
       "source": "General Fund",
+      "target": "Culture & Recreation",
+      "value": 220866400
+    },
+    {
+      "source": "General Fund",
       "target": "General Administration & Finance",
       "value": 497915463
     },
@@ -608,24 +428,39 @@
       "value": 249861573
     },
     {
-      "source": "General Fund",
+      "source": "Other Funds",
+      "target": "Community Health",
+      "value": 10100000
+    },
+    {
+      "source": "Other Funds",
+      "target": "Public Works, Transportation & Commerce",
+      "value": 9000000
+    },
+    {
+      "source": "Other Funds",
+      "target": "Human Welfare & Neighborhood Development",
+      "value": 2000000
+    },
+    {
+      "source": "Other Funds",
+      "target": "Public Protection",
+      "value": 9857000
+    },
+    {
+      "source": "Other Funds",
       "target": "Culture & Recreation",
-      "value": 220866400
+      "value": 6344978
     },
     {
-      "source": "Internal Service Funds",
+      "source": "Other Funds",
       "target": "General Administration & Finance",
-      "value": 5082521
+      "value": 108264577
     },
     {
-      "source": "Pension, Other Employee and Ot",
-      "target": "General Administration & Finance",
-      "value": 39923718
-    },
-    {
-      "source": "Permanent Fund",
-      "target": "Culture & Recreation",
-      "value": 115000
+      "source": "Other Funds",
+      "target": "General City Responsibilities",
+      "value": 379472453
     },
     {
       "source": "Special Revenue Funds",
@@ -649,11 +484,6 @@
     },
     {
       "source": "Special Revenue Funds",
-      "target": "General Administration & Finance",
-      "value": 231257121
-    },
-    {
-      "source": "Special Revenue Funds",
       "target": "Transfers Out",
       "value": 56154603
     },
@@ -664,13 +494,13 @@
     },
     {
       "source": "Special Revenue Funds",
-      "target": "General City Responsibilities",
-      "value": 6939017
+      "target": "General Administration & Finance",
+      "value": 231257121
     },
     {
-      "source": "Enterprise Funds",
-      "target": "Transfers Out",
-      "value": 414624316
+      "source": "Special Revenue Funds",
+      "target": "General City Responsibilities",
+      "value": 6939017
     }
   ]
 }

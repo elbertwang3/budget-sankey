@@ -2,7 +2,6 @@
   import { getContext, afterUpdate } from "svelte";
   import { select, selectAll } from "d3-selection";
   import * as Sankey from "d3-sankey";
-  import { textwrap } from "d3-textwrap";
 
   const { data, width, height } = getContext("LayerCake");
 
@@ -17,8 +16,7 @@
   export let nodePadding = 10;
   export let linkSort = null;
   export let nodeId = (d) => d.id;
-  const wrap = textwrap().bounds({ width: 150, height: 100 }).method("tspans");
-  let label;
+
 
   const color = { revenues: "#25C2E4", funds: "#FFCA42", spending: "#F15F27" };
 
@@ -32,13 +30,9 @@
     .iterations(2000);
 
   $: sankeyData = sankey($data);
-  // $: console.log(sankeyData.nodes);
 
   $: link = Sankey.sankeyLinkHorizontal();
 
-  // afterUpdate(() => {
-
-  // });
 </script>
 
 <g class="sankey-layer">
@@ -51,7 +45,7 @@
     {#each sankeyData.links as d}
       <path
         class="link"
-        d={link(d)}
+        d={link({ ...d, y1: d.y1 + 0.00001 })}
         fill="none"
         stroke={`url(#${d.source.x0 == 0 ? "rToF" : "fToS"})`}
         stroke-width={d.width}
@@ -82,13 +76,19 @@
         />
         {#if d.value > 1000000000}
           <text
-            bind:this={label}
             class="node-label"
             x={d.x0 < ($width * 3) / 4 ? d.x1 + 6 : d.x0 - 6}
-            y={(d.y1 + d.y0) / 2}
+            y={d.id == "General Fund"
+              ? (d.y1 + d.y0) * 0.42
+              : (d.y1 + d.y0) / 2}
             style="text-anchor: {d.x0 < ($width * 3) / 4 ? 'start' : 'end'};"
           >
-            {d.id}
+            {#each d.id.split(" &") as t, i}
+              <tspan
+                x={d.x0 < ($width * 3) / 4 ? d.x1 + 6 : d.x0 - 6}
+                dy={i > 0 ? "1.4em" : 0}>{`${i != 0 ? "&" : ""}${t}`}</tspan
+              >
+            {/each}
           </text>
         {/if}
       </g>
