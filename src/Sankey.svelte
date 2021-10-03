@@ -9,8 +9,6 @@
   export let nodePadding = 10;
   export let nodeId = (d) => d.id;
 
-  $: console.log($height);
-
   const color = { revenues: "#25C2E4", funds: "#FFCA42", spending: "#F15F27" };
 
   $: sankey = Sankey.sankey()
@@ -18,10 +16,9 @@
     .nodePadding(nodePadding)
     .nodeId(nodeId)
     .size([$width, $height])
-    .iterations(100)
+    .iterations(100);
 
   $: sankeyData = sankey($data);
-  $: console.log(sankeyData)
 
   $: link = Sankey.sankeyLinkHorizontal();
 </script>
@@ -50,7 +47,6 @@
   </g>
   <g class="rect-group">
     {#each sankeyData.nodes as d, i}
-      <!-- {#if d.id != "Transfer Adjustment-Source"} -->
       <g>
         <rect
           class="node"
