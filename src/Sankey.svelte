@@ -1,38 +1,29 @@
 <script>
-  import { getContext, afterUpdate } from "svelte";
-  import { select, selectAll } from "d3-selection";
+  import { getContext } from "svelte";
   import * as Sankey from "d3-sankey";
 
   const { data, width, height } = getContext("LayerCake");
-
-  /* --------------------------------------------
-   * Allow for dynamic coloring
-   */
-  //   export let colorLinks = (d) => "rgba(0, 0, 0, .2)";
-  //   export let colorNodes = (d) => "#333";
   export let hoveredNode, hoveredLink;
 
-  export let nodeWidth = 10;
+  export let nodeWidth = 20;
   export let nodePadding = 10;
-  export let linkSort = null;
   export let nodeId = (d) => d.id;
 
+  $: console.log($height);
 
   const color = { revenues: "#25C2E4", funds: "#FFCA42", spending: "#F15F27" };
 
   $: sankey = Sankey.sankey()
-    // .nodeAlign(nodeAlign)
     .nodeWidth(nodeWidth)
     .nodePadding(nodePadding)
     .nodeId(nodeId)
     .size([$width, $height])
-    .linkSort(linkSort)
-    .iterations(2000);
+    .iterations(100)
 
   $: sankeyData = sankey($data);
+  $: console.log(sankeyData)
 
   $: link = Sankey.sankeyLinkHorizontal();
-
 </script>
 
 <g class="sankey-layer">
@@ -78,9 +69,9 @@
           <text
             class="node-label"
             x={d.x0 < ($width * 3) / 4 ? d.x1 + 6 : d.x0 - 6}
-            y={d.id == "General Fund"
-              ? (d.y1 + d.y0) * 0.42
-              : (d.y1 + d.y0) / 2}
+            y={d.id == "Enterprise Funds"
+              ? (d.y1 + d.y0) * 0.6
+              : (d.y1 + d.y0) * 0.5}
             style="text-anchor: {d.x0 < ($width * 3) / 4 ? 'start' : 'end'};"
           >
             {#each d.id.split(" &") as t, i}

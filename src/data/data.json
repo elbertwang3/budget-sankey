@@ -7,7 +7,7 @@
     },
     {
       "id": "Charges for Services",
-      "definition": "Fees paid by residents and organizations for city services, ranging from hospital fees and building inspections to street cleaning. ",
+      "definition": "Fees paid by residents and organizations for services, ranging from hospital fees and transit fares to water sales.",
       "category": "revenues"
     },
     {
@@ -152,7 +152,7 @@
     },
     {
       "id": "Special Revenue Funds",
-      "definition": "Proceeds of specific revenue sources (other than expendable trusts or major capital projects) that are legally restricted for specified purposes.",
+      "definition": "Funds that must be used for a specific purpose, such as parks, libraries and social services.",
       "category": "funds"
     },
     {
@@ -196,18 +196,8 @@
       "category": "spending"
     },
     {
-      "id": "Transfer Adjustment-Source",
-      "definition": "",
-      "category": "spending"
-    },
-    {
-      "id": "Transfer Adjustment - Uses",
-      "definition": "",
-      "category": "revenues"
-    },
-    {
       "id": "Transfers Out",
-      "definition": "",
+      "definition": "Authorized transfers from one fund or department to another.",
       "category": "spending"
     }
   ],
