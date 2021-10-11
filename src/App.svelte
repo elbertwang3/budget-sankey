@@ -10,6 +10,9 @@
 </script>
 
 <main>
+  <div class="instructions">
+    Mouse over the bars and connections for more information.
+  </div>
   <div class="chart-container">
     <LayerCake {data} padding={{ top: 30, right: 0, bottom: 0, left: 0 }}>
       <Svg>
@@ -34,14 +37,17 @@
   </div>
 </main>
 
-
 <style>
-
   main {
     width: 100%;
     height: 100%;
+    font-family: "Amiko", sans-serif;
   }
 
+  .instructions {
+    margin-bottom: 1rem;
+  }
+  
   .chart-container {
     width: 100%;
     height: 100%;

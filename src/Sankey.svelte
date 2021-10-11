@@ -66,7 +66,7 @@
             class="node-label"
             x={d.x0 < ($width * 3) / 4 ? d.x1 + 6 : d.x0 - 6}
             y={d.id == "Enterprise Funds"
-              ? (d.y1 + d.y0) * 0.6
+              ? (d.y1 + d.y0) * 0.5
               : (d.y1 + d.y0) * 0.5}
             style="text-anchor: {d.x0 < ($width * 3) / 4 ? 'start' : 'end'};"
           >
@@ -85,7 +85,6 @@
 
 <style>
   text {
-    font-family: "Amiko", sans-serif;
     pointer-events: none;
   }
 
