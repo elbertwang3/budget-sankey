@@ -23,7 +23,6 @@
   $: sankeyData = sankey($data);
 
   $: link = Sankey.sankeyLinkHorizontal();
-  $: console.log(sankeyData.nodes);
 </script>
 
 <g class="sankey-layer">
