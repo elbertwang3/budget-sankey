@@ -9,6 +9,8 @@
   export let nodePadding = 10;
   export let nodeId = (d) => d.id;
 
+  const breakpoint = 600;
+
   const color = { revenues: "#25C2E4", funds: "#FFCA42", spending: "#F15F27" };
 
   $: sankey = Sankey.sankey()
@@ -21,6 +23,7 @@
   $: sankeyData = sankey($data);
 
   $: link = Sankey.sankeyLinkHorizontal();
+  $: console.log(sankeyData.nodes);
 </script>
 
 <g class="sankey-layer">
@@ -61,7 +64,7 @@
           on:mouseout={() => (hoveredNode = null)}
           on:blur={() => (hoveredLink = null)}
         />
-        {#if d.value > 1000000000}
+        {#if $width > breakpoint || d.category != "funds"}
           <text
             class="node-label"
             x={d.x0 < ($width * 3) / 4 ? d.x1 + 6 : d.x0 - 6}
@@ -91,6 +94,8 @@
   .node-label {
     fill: #333;
     font-size: 12px;
+    alignment-baseline: middle;
+    dominant-baseline: middle;
   }
 
   .node:hover {

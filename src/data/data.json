@@ -11,63 +11,8 @@
       "category": "revenues"
     },
     {
-      "id": "Contributions Ret/HSS/HlthCare",
-      "definition": "Employee contributions to retirement and healthcare funds.",
-      "category": "revenues"
-    },
-    {
-      "id": "Expenditure Recovery",
-      "definition": "Revenue from services performed by city departments for other city departments.",
-      "category": "revenues"
-    },
-    {
-      "id": "Fines, Forfeiture, & Penalties",
-      "definition": "Fines and penalties charged to residents, businesses and organizations. ",
-      "category": "revenues"
-    },
-    {
-      "id": "Interest & Investment Income",
-      "definition": "Interest earned and other value appreciation of funds loaned or invested. ",
-      "category": "revenues"
-    },
-    {
-      "id": "Intergovernmental: Federal",
-      "definition": "Funding from the U.S. federal government. ",
-      "category": "revenues"
-    },
-    {
-      "id": "Intergovernmental: Other",
-      "definition": "Funding from other government entities. ",
-      "category": "revenues"
-    },
-    {
-      "id": "Intergovernmental: State",
-      "definition": "Funding from the state of California. ",
-      "category": "revenues"
-    },
-    {
-      "id": "Intrafund Transfers In",
-      "definition": "Revenue transfers between city funds.",
-      "category": "revenues"
-    },
-    {
-      "id": "Licenses, Permits,& Franchises",
-      "definition": "Revenue from licenses and permits issued by the city. ",
-      "category": "revenues"
-    },
-    {
-      "id": "Other Financing Sources",
-      "definition": "Miscellaneous financing",
-      "category": "revenues"
-    },
-    {
       "id": "Other Local Taxes",
       "definition": "Sales taxes, hotel taxes, real estate transfer taxes and other assorted local taxes. ",
-      "category": "revenues"
-    },
-    {
-      "id": "Other Revenues",
-      "definition": "Miscellaneous revenue",
       "category": "revenues"
     },
     {
@@ -76,7 +21,7 @@
       "category": "revenues"
     },
     {
-      "id": "Rents & Concessions",
+      "id": "Rents and Concessions",
       "definition": "Rental income and seller concessions for properties owned by the city. ",
       "category": "revenues"
     },
@@ -101,21 +46,6 @@
       "category": "revenues"
     },
     {
-      "id": "Capital Projects Funds",
-      "definition": "Funds used for the acquisition or construction of major capital facilities",
-      "category": "funds"
-    },
-    {
-      "id": "Component Units",
-      "definition": "Entities that are legally separate but financially accountable to the city, such as the San Francisco Redevelopment Agency.",
-      "category": "funds"
-    },
-    {
-      "id": "Debt Service Funds",
-      "definition": "Funds used for long-term principal obligation, interest and related debt costs.",
-      "category": "funds"
-    },
-    {
       "id": "Enterprise Funds",
       "definition": "Funds from city and county agencies, such as the airport and ports, that earn revenue much like a business enterprise. ",
       "category": "funds"
@@ -123,31 +53,6 @@
     {
       "id": "General Fund",
       "definition": "The general operating fund for the city. ",
-      "category": "funds"
-    },
-    {
-      "id": "Internal Service Funds",
-      "definition": "Funds for goods and services provided by one department or agency to another on a cost-reimbursement basis, such as the Health Service System.",
-      "category": "funds"
-    },
-    {
-      "id": "Investment Trust Fund",
-      "definition": "A fiduciary fund used to report external investments.",
-      "category": "funds"
-    },
-    {
-      "id": "Pension, Other Employee and Ot",
-      "definition": "Pension and employee benefit trust funds. ",
-      "category": "funds"
-    },
-    {
-      "id": "Permanent Fund",
-      "definition": "Legally restricted funds to the extent that only\nearnings, and not principal, may be used for an ongoing purpose.",
-      "category": "funds"
-    },
-    {
-      "id": "Private Purpose Trust Fund",
-      "definition": "Funds used for the benefit of individuals, private organizations, or other governments.",
       "category": "funds"
     },
     {
@@ -166,12 +71,12 @@
       "category": "spending"
     },
     {
-      "id": "Culture & Recreation",
+      "id": "Culture and Rec.",
       "definition": "Parks, museums, libraries and other culture and recreation. ",
       "category": "spending"
     },
     {
-      "id": "General Administration & Finance",
+      "id": "General Administration",
       "definition": "General administration of the city, such as human resources, finance, Mayor's Office and Board of Supervisors.",
       "category": "spending"
     },
@@ -191,7 +96,7 @@
       "category": "spending"
     },
     {
-      "id": "General City Responsibilities",
+      "id": "General City",
       "definition": "Spending not directly attributable to one city department, or that is citywide in nature.",
       "category": "spending"
     },
@@ -278,22 +183,22 @@
       "value": 350355572
     },
     {
-      "source": "Rents & Concessions",
+      "source": "Rents and Concessions",
       "target": "Enterprise Funds",
       "value": 391890227
     },
     {
-      "source": "Rents & Concessions",
+      "source": "Rents and Concessions",
       "target": "General Fund",
       "value": 11728090
     },
     {
-      "source": "Rents & Concessions",
+      "source": "Rents and Concessions",
       "target": "Other Funds",
       "value": 11800765
     },
     {
-      "source": "Rents & Concessions",
+      "source": "Rents and Concessions",
       "target": "Special Revenue Funds",
       "value": 39984064
     },
@@ -404,17 +309,17 @@
     },
     {
       "source": "General Fund",
-      "target": "Culture & Recreation",
+      "target": "Culture and Rec.",
       "value": 220866400
     },
     {
       "source": "General Fund",
-      "target": "General Administration & Finance",
+      "target": "General Administration",
       "value": 497915463
     },
     {
       "source": "General Fund",
-      "target": "General City Responsibilities",
+      "target": "General City",
       "value": 249861573
     },
     {
@@ -439,17 +344,17 @@
     },
     {
       "source": "Other Funds",
-      "target": "Culture & Recreation",
+      "target": "Culture and Rec.",
       "value": 6344978
     },
     {
       "source": "Other Funds",
-      "target": "General Administration & Finance",
+      "target": "General Administration",
       "value": 108264577
     },
     {
       "source": "Other Funds",
-      "target": "General City Responsibilities",
+      "target": "General City",
       "value": 379472453
     },
     {
@@ -479,17 +384,17 @@
     },
     {
       "source": "Special Revenue Funds",
-      "target": "Culture & Recreation",
+      "target": "Culture and Rec.",
       "value": 300116553
     },
     {
       "source": "Special Revenue Funds",
-      "target": "General Administration & Finance",
+      "target": "General Administration",
       "value": 231257121
     },
     {
       "source": "Special Revenue Funds",
-      "target": "General City Responsibilities",
+      "target": "General City",
       "value": 6939017
     }
   ]
